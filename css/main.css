@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: ghostwhite;
   height: 100%;
 }
 
@@ -109,6 +109,14 @@ body {
   text-align: center;
 }
 
+body h1 {
+  font-family: 'Karla';
+}
+
+body h2 {
+  font-family: 'Quicksand';
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
@@ -116,14 +124,15 @@ body {
 }
 
 
-.wrapper h2{
-  color: black;
-  font-weight: 300;
+.wrapper h3{
+  color: darkslategray;
+  font-weight: 700;
 }
 
 .wrapper p{
-  color: black;
+  color: darkslategray;
   font-weight: 100;
+  margin-top: 0;
 }
 
 .div-1, .div-2, .div-3 {
@@ -149,6 +158,24 @@ body {
 
 .div-3 {
   background-color: rosybrown;
+}
+
+footer {
+  display: flex;
+}
+
+footer ul{
+  list-style: none;
+  justify-content: flex-start;
+}
+
+footer ul li{
+  display: inline-block;
+}
+
+footer ul li img{
+  width: 30px;
+  padding: 0 20px 0 0;
 }
 
 
